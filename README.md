@@ -14,7 +14,7 @@ the most relevant passages and generates accurate cited answers.
 - Groq LLM — Fast inference using Llama 3.3
 - Streamlit — Web interface
 - MMR Retrieval — Maximum Marginal Relevance for diverse results
-
+- LangGraph — Conversational memory via state machine (Retrieve → Generate nodes)
 ## How it works
 1. PDF is loaded and split into 500-character chunks
 2. Each chunk is converted to embeddings using HuggingFace
@@ -22,7 +22,7 @@ the most relevant passages and generates accurate cited answers.
 4. User question is embedded and matched against stored chunks
 5. Top 5 relevant chunks retrieved using MMR search
 6. Chunks passed to LLM with prompt to generate cited answer
-
+7. Conversation history stored in LangGraph state — enables multi-turn Q&A
 ## Run locally
 pip install -r requirements.txt
 streamlit run app.py
