@@ -50,7 +50,6 @@ langchain-classic==1.0.7
 langchain-community==0.4.2
 langchain-core==1.4.0
 langchain-groq==1.1.2
-langchain-openai==1.2.2
 langchain-protocol==0.0.16
 langchain-text-splitters==1.1.2
 langgraph==1.2.4
@@ -71,7 +70,6 @@ networkx==3.6.1
 numpy==2.4.6
 oauthlib==3.3.1
 onnxruntime==1.26.0
-openai==2.41.0
 opentelemetry-api==1.42.1
 opentelemetry-exporter-otlp-proto-common==1.42.1
 opentelemetry-exporter-otlp-proto-grpc==1.42.1
@@ -99,7 +97,6 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.2.2
 python-multipart==0.0.30
 PyYAML==6.0.3
-ragas==0.4.3
 referencing==0.37.0
 regex==2026.5.9
 requests==2.34.2
